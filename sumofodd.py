@@ -1,9 +1,6 @@
 # Python Program to Calculate Sum of Odd Numbers from 1 to N
- 
-n=int(input("Enter n value:"))
-sum=0
-for i in range(1,n+1,2):
-    sum+=i
-print(sum)
+
+n = int(input("Enter n value:"))
+print(f'Sum of odd numbers till {n}: {(round(n/2)+1) ** 2}')
 
 
